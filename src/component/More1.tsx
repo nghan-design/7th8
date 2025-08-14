@@ -5,33 +5,28 @@ import './More1.css'
 const More1: React.FC = () => {
   return (
     <div className="container py-4 more1-container">
-      <div className="row g-4">
+      <div className="row g-4 align-items-center">
         {/* Cột ảnh */}
         <div className="col-lg-8">
           <div className="row g-3">
             {/* Ảnh lớn bên trái */}
             <div className="col-lg-8 col-12">
               <img
-                src="/damcuoi/vaycuoi1.jpg"
+                src="/damcuoi/vaycuoi2.jpg"
                 alt="Váy 1"
-                className="img-fluid w-100 h-100 object-fit-cover"
+                className="img-fluid w-100 object-fit-cover"
               />
             </div>
             {/* Ảnh nhỏ bên phải */}
             <div className="col-lg-4 col-12 d-flex flex-column gap-3">
               <img
-                src="/damcuoi/vaycuoi2.jpg"
+                src="/damcuoi/vaycuoi1.jpg"
                 alt="Váy 2"
                 className="img-fluid object-fit-cover"
               />
               <img
                 src="/damcuoi/vaycuoi3.jpg"
                 alt="Váy 3"
-                className="img-fluid object-fit-cover"
-              />
-              <img
-                src="/damcuoi/vaycuoi4.jpg"
-                alt="Váy 4"
                 className="img-fluid object-fit-cover"
               />
             </div>
@@ -41,7 +36,7 @@ const More1: React.FC = () => {
         <div className="col-lg-4 more1-text-wrapper">
           <div className="more1-text">
             <h2 className="text-center">LA MER</h2>
-            <h5 className="text-center mb-4">MỘT CÂU CHUYỆN VỀ THỜI TRANG</h5>
+            <h5 className="text-center mb-4">CẢM HỨNG TỪ BIỂN CẢ</h5>
             <p>
               Từng thiết kế là sự giao thoa giữa nghệ thuật Haute Couture và thiên
               nhiên, nơi những đường cắt tinh xảo, chất liệu bay bổng cùng bảng màu
