@@ -9,7 +9,6 @@ const DefaultLayout = ({child}:any) => {
     <>
       <Headers />
         {child}
-      <Footer/>
       {/* <ProductDetailPage/> */}
     </>
   );
